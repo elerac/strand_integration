@@ -1,0 +1,16 @@
+.DS_Store
+.vscode/*
+*.pyc
+
+cpp_ext/build/*
+
+result/*
+data/*
+documents/*
+
+# Do not ignore the following files
+!documents/teaser_github_dark.png
+!documents/teaser_github_light.png
+!documents/teaser_github.png
+!data/README.md
+!/data/straight_s*

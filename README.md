@@ -21,7 +21,7 @@ This repository contains small-scale multi-view images of straight hair for debu
 
 ### Full-scale data
 
-Coming soon.
+You can download the full-scale multi-view images from [release page](https://github.com/elerac/strand_integration/releases/tag/data).
 
 ## Setup
 
@@ -59,3 +59,15 @@ python run_line_filtering.py result/si/straight_s result/merged_ply/si/straight_
 # After running all views, you can merge the results same as the above process.
 ```
 
+## BibTeX
+
+```bibtex
+@article{maeda2023refinement,
+    author = {Maeda, Ryota and Takayama, Kenshi and Taketomi, Takafumi},
+    title = {Refinement of Hair Geometry by Strand Integration},
+    journal = {Computer Graphics Forum (proceedings of Pacific Graphics)},
+    volume = {42},
+    number = {7},
+    year = {2023}
+}
+```

@@ -1,17 +1,19 @@
 # Strand Integration (PG2023)
 
-> [**Refinement of Hair Geometry by Strand Integration**](https://elerac.github.io/strand_integration_page),  
-> Ryota Maeda, Kenshi Takayama, Takafumi Taketomi,  
-> Computer Graphics Forum (PG2023)  
-
-This repository contains the official implementation of our paper **"Refinement of Hair Geometry by Strand Integration"** (PG2023).
-
-And also, this repository contains the unofficial implementation of **LPMVS** (Line-based PatchMatch MVS) proposed in the paper "Strand-accurate Multi-view Hair Capture" (CVPR2019).
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="documents/teaser_github_dark.png">
   <img alt="teaser" src="documents/teaser_github_light.png">
 </picture>
+
+> [**Refinement of Hair Geometry by Strand Integration**](https://elerac.github.io/strand_integration_page),  
+> Ryota Maeda, Kenshi Takayama, Takafumi Taketomi,  
+> Computer Graphics Forum (PG2023)  
+
+This repository contains the following implementations:
+
+- **Strand Integration**: The official implementation of our paper "Refinement of Hair Geometry by Strand Integration" (PG2023).  
+- **LPMVS**: The unofficial implementation of LPMVS (Line-based PatchMatch MVS) proposed in the paper "Strand-accurate Multi-view Hair Capture" (CVPR2019). And we also provide the implementation of 3D line filtering.
+
 
 ## Multi-view data
 

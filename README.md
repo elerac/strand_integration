@@ -14,7 +14,6 @@ This repository contains the following implementations:
 - **Strand Integration**: The official implementation of our paper "Refinement of Hair Geometry by Strand Integration" (PG2023).  
 - **LPMVS**: The unofficial implementation of LPMVS (Line-based PatchMatch MVS) proposed in the paper "Strand-accurate Multi-view Hair Capture" (CVPR2019). And we also provide the implementation of 3D line filtering.
 
-
 ## Multi-view data
 
 ### Small-scale data
@@ -35,7 +34,6 @@ pip install .
 ```
 
 For more details, please refer to [cpp_ext](cpp_ext/).
-
 
 ## Running
 
@@ -59,6 +57,13 @@ python run_strand_integration.py result/lpmvs/straight_s --consistency result/co
 # 3D line filtering (for Strand Integration)
 python run_line_filtering.py result/si/straight_s result/merged_ply/si/straight_s.ply
 # After running all views, you can merge the results same as the above process.
+```
+
+After running the reconstruction codes, you can visualize the .ply files as follows.
+
+```bash
+# Visualize ply files
+python visualize_ply.py result/merged_ply/si/straight_s.ply --gamma 0.45
 ```
 
 ## BibTeX
